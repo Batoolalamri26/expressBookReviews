@@ -43,7 +43,8 @@ public_users.get('/', (req, res) => {
     }).catch((err) =>{
       res.status(500).json({error: "An error occured"});
     });
-
+      
+    //await res.send(JSON.stringify(books,null,4));
   
 });
 
